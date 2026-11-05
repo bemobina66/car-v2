@@ -1,0 +1,64 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-11-01T16:29:20.414012Z",
+  "title": "Design System: Dustline",
+  "extensions": {
+    "colorMeta": {
+      "amber": {
+        "role": "primary",
+        "displayName": "Amber",
+        "canonical": "rgb(100% 47% 8%)"
+      },
+      "gold": {
+        "role": "primary",
+        "displayName": "Gold",
+        "canonical": "rgb(100% 72% 15%)"
+      },
+      "asphalt": {
+        "role": "neutral",
+        "displayName": "Asphalt",
+        "canonical": "rgb(4.5% 3.5% 4%)"
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "DejaVu Serif Condensed Bold",
+        "purpose": "Main menu title."
+      }
+    }
+  },
+  "components": [
+    {
+      "name": "Menu action",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "Rectangular rust-colored menu action.",
+      "html": "<button class=\"ds-action\">DRIVE</button>",
+      "css": ".ds-action { width: 300px; height: 58px; border: 0; border-radius: 0; background: rgb(58% 24% 7% / 98%); color: white; font: 21px sans-serif; }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Midnight Desert Highway",
+    "overview": "A sparse, low-poly road runs toward the horizon through a dark desert. Warm road lights, reflectors and vehicle lamps provide the visual punctuation; a translucent menu leaves the drive visible behind it.",
+    "keyCharacteristics": [
+      "Three-lane road framed by guard rails and repeating lamps.",
+      "Dark, fogged scenery with warm emissive accents.",
+      "Screen-edge driving information and a left-side menu over the scene."
+    ],
+    "rules": [
+      {
+        "name": "The Warm Road Rule",
+        "body": "Use amber and gold to mark the road edges and lights against the dark scene.",
+        "section": "colors"
+      }
+    ],
+    "dos": [
+      "Do keep the road and lane markings legible against the desert at night.",
+      "Do use warm emissive accents for roadside guidance and vehicle lights.",
+      "Do keep driving status at the screen edges so the road remains visible."
+    ],
+    "donts": [
+      "Don't add a jump action; steering between lanes is the intended movement."
+    ]
+  }
+}

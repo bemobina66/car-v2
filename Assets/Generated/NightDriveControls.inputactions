@@ -1,0 +1,87 @@
+{
+  "name": "NightDriveControls",
+  "maps": [
+    {
+      "name": "Driving",
+      "id": "b799fa07-e5aa-45ef-ac9f-f93e01e39981",
+      "actions": [
+        {
+          "name": "Left",
+          "type": "Button",
+          "id": "b40e58c9-7203-4e18-9a90-a2541dbcc7c0",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Right",
+          "type": "Button",
+          "id": "19f7fe1a-9b78-4ad0-82bc-fcb4017f1cd6",
+          "expectedControlType": "Button"
+        },
+        {
+          "name": "Pause",
+          "type": "Button",
+          "id": "46bde51d-c1c4-4da7-a873-65c16bb77b7f",
+          "expectedControlType": "Button"
+        }
+      ],
+      "bindings": [
+        {
+          "name": "",
+          "id": "89f3ab9c-6276-4f53-8440-09ec26b00844",
+          "path": "<Keyboard>/a",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Left",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "25ee0ea3-83fe-4c54-8d5e-940a907e3d49",
+          "path": "<Keyboard>/leftArrow",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Left",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "1f2f07f7-f2a0-4a38-9a9f-7df4408b0df7",
+          "path": "<Keyboard>/d",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Right",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "f0e2969c-db81-49e4-b0b7-7975752c34ff",
+          "path": "<Keyboard>/rightArrow",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Right",
+          "isComposite": false,
+          "isPartOfComposite": false
+        },
+        {
+          "name": "",
+          "id": "e2cc8ba4-08da-449a-8563-25167b3a9280",
+          "path": "<Keyboard>/escape",
+          "interactions": "",
+          "processors": "",
+          "groups": "",
+          "action": "Pause",
+          "isComposite": false,
+          "isPartOfComposite": false
+        }
+      ]
+    }
+  ],
+  "controlSchemes": []
+}
